@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+   <link rel ="stylesheet" href="style.css">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body { 
+    background: #f9f9f9;
+    min-height: 100vh;
+    overflow-x: hidden ;
+}
+.logo {
+    text-align:right;
+    color: #f3f3f3;
+}
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+  }
+
+  li {
+    float: right;
+  }
+
+  li a {
+    display: block;
+    color: #666;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover:not(.active) {
+    background-color: #ddd;
+  }
+
+  li a.active {
+    color: white;
+    background-color: #04AA6D;
+  }
+header {
+position : absolute;
+top :0 ;
+left: 0;
+width: 100%;
+padding: 30px 60px;
+display : flex;
+justify-content: flex-start;
+align-items: center;
+z-index:100 ;
+} 
+.logo {
+    font-size: 2em;
+    color: #359381;
+    pointer-events: none;
+    margin-right: 270px ;
+}
+.navigation a{
+color: #359381;
+padding: 6px 15px;
+border-radius: 20px;
+margin: 0 10px;  
+font-weight: 600;
+}
+.navigation a:hover, 
+.navigation a.active{
+background: #359381;
+color: #fff;
+}
+.voyage{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#text{
+    position: absolute;
+    font-size: 5em;
+    color:#fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+}
+.voyage img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;}
+    .sec{
+        position: relative;
+        background: #003329;
+        padding: 100px;
+    }
+    .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+    .div-item {
+                background-color: lightgrey;
+                width: 30px;
+                border: 15px solid rgb(7, 61, 7);
+                padding: 4px;
+                margin: 3px;
+              }
+
+
+</style>
+<body>
+  <header>
+    <h2 class="logo">TRAVEL WITH US!
+        
+    </h2>
+    <nav class="navigation">
+      
+      <ul>
+       
+        <li> <a href="review.php">REVIEW </a></li>
+        <li><a href="login.php">LOGIN </a></li>
+        <li><a href="signup.php">SIGN UP </a></li>
+        <li> <a href="#service" >SERVICES</a></li>
+        <li> <a href=" #" class="active">HOME </a></li>
+      </ul>
+    </nav>
+  </header>
+    <section class="voyage">
+        <img src="hill1.png" id="hill1">
+        <img src="hill2.png" id="hill2">
+        <img src="hill3.png" id="hill3">
+        <img src="hill4.png" id="hill4">
+        <img src="hill5.png" id="hill5">
+        <img src="tree.png" id="tree">
+        <h2 id="text">VogueVoyage </h2>
+        <img src="leaf.png" id="leaf">
+        <img src="plant.png" id="plant">
+    </section>
+    <section class="sec" >
+        <h2 style="color:white"> Stay with us !</h2>
+   
+        <div class="container" id="service">
+        <div class="div-item" style="width:300px">
+            <img class="card-img-top" src="gilgit.jpeg.jpeg" style="width:100%">
+            <a href="gilgit.html" class="btn btn-primary">Visit Gilgit with us! </a>
+            </div>
+            
+            <div class="div-item" style="width:300px">
+                <img class="card-img-top" src="swat.jpg" style="width:100%">
+                <a href="swat.html" class="btn btn-primary">Visit Swat with us! </a>
+                </div>
+                <div class="div-item" style="width:300px">
+                    <img class="card-img-top" src="hunza.jpg" style="width:100%">
+                    <a href="hunza.html" class="btn btn-primary">Visit Hunza with us! </a>
+                    </div>
+                    <div class="div-item" style="width:300px">
+                        <img class="card-img-top" src="skardu.jpg" style="width:100%">
+                        <a href="skardu.html" class="btn btn-info">Visit Skardu with us! </a>
+                        </div>
+                    
+        
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

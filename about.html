@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About VogueVoyage</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+    body { 
+        background: #f9f9f9;
+        min-height: 100vh;
+        overflow-x: hidden ;
+    }
+    .logo {
+        text-align:right;
+        color: #f3f3f3;
+    }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        border: 1px solid #e7e7e7;
+        background-color: #f3f3f3;
+      }
+    
+      li {
+        float: right;
+      }
+    
+      li a {
+        display: block;
+        color: #666;
+        text-align: right;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+    
+      li a:hover:not(.active) {
+        background-color: #ddd;
+      }
+    
+      li a.active {
+        color: white;
+        background-color: #04AA6D;
+      }
+    header {
+    position : absolute;
+    top :0 ;
+    left: 0;
+    width: 100%;
+    padding: 30px 60px;
+    display : flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index:100 ;
+    } 
+    .logo {
+        font-size: 2em;
+        color: #359381;
+        pointer-events: none;
+        margin-right: 270px ;
+    }
+    .navigation a{
+    color: #359381;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;  
+    font-weight: 600;
+    }
+    .navigation a:hover, 
+    .navigation a.active{
+    background: #359381;
+    color: #fff;
+    }
+    .voyage{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    #text{
+        position: absolute;
+        font-size: 5em;
+        color:#fff;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+    }
+    .voyage img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        pointer-events: none;}
+        .sec{
+            position: relative;
+            background: #003329;
+            padding: 100px;
+        }
+    
+    
+    
+    </style>
+</head>
+<body>
+    <header>
+        <h2 class="logo">VogueVoyage</h2>
+        <nav class="navigation">
+            <ul>
+                <li><a href="c.html">HOME</a></li>
+                <li><a href="about.html" class="active">ABOUT</a></li>
+                <li><a href="review.php">REVIEW</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="sec">
+        <h2 style="color:white">About VogueVoyage</h2>
+        <div class="container">
+            <div class="div-item">
+                <p>Welcome to VogueVoyage, your ultimate travel partner!</p>
+                <p>At VogueVoyage, we are passionate about crafting unforgettable travel experiences for our clients. Whether you're dreaming of relaxing on pristine beaches, exploring vibrant cities, or embarking on thrilling adventures in the great outdoors, we are here to turn your travel fantasies into reality.</p>
+                <p>With a team of experienced travel experts and a wide network of trusted partners worldwide, we strive to provide exceptional service and tailor-made itineraries to suit your preferences and budget. Our dedication to customer satisfaction and attention to detail ensure that every journey with VogueVoyage is smooth, seamless, and truly memorable.</p>
+                <p>Discover the world with confidence and let VogueVoyage be your guide to extraordinary destinations and unforgettable adventures.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

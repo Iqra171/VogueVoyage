@@ -1,0 +1,123 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gilgit</title>
+
+</head>
+<style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+      * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+      body {
+        background-color: #003329;
+    }
+    .logo {
+    text-align:center;
+    color: #f3f3f3;}
+    .navigation a{
+color: #359381;
+padding: 6px 15px;
+border-radius: 20px;
+margin: 0 10px;  
+font-weight: 600;
+}
+.navigation a:hover, 
+.navigation a.active{
+background: #359381;
+color: #fff;
+}
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+li {
+  float:right ;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+  background-color: #04AA6D;
+}
+.sec{
+        position: relative;
+        background: #003329;
+        padding: 100px;
+    }
+    .container {
+      width: 90%; /* Or any desired width */
+            height: 300px; /* Or any desired height */
+           
+    display: flex;
+    flex-wrap: wrap;
+    /*justify-content: space-between;*/
+  }
+    .div-item {
+             
+      background-color: lightgrey;
+      height: 500px;
+                width: 300px;
+                border: 5px solid rgb(7, 61, 12);
+                padding: 4px;
+                margin: 9px  ;
+              }
+</style>
+<body>
+    <header>
+      <BR>
+        <h2 class="logo">VogueVoyage</h2>
+        <nav class ="navigation">
+            <ul>
+              <li>  <a href = "review.php">REVIEW </a></li>
+              <li> <a href = "#" class="active">SERVICES</a></li>
+      <li> <a href = "c.html" >HOME </a></li>
+      
+      
+    </ul> </nav>
+    </header>
+    <section class="sec">
+        <h2 style="color:white"> Stay with us !</h2>
+       
+        <div class="container">
+        <div class="div-item" style="width:300px">
+          <img  src="shangrila.jpg" alt="shangrilla"style="width:100%;height: 420px">
+          <a href="gilgit_shangrilla.php" class="btn btn-primary">BOOK shangrilla </a>
+          </div>
+            
+            <div class="div-item" style="width:300px">
+                <img  src="serenagilgit.jpg" style="width:100%">
+                <a href="gilgit_serens.php" class="btn btn-primary">BOOK SERENA </a>
+                </div>
+                <div class="div-item" style="width:300px ">
+                    <img  src="riverdale.jpg" style="width:100%;height: 420px">
+                    <a href="gilgit_riverdale.php" class="btn btn-primary">BOOK RIVERDALE</a>
+                    </div>
+                   
+                         
+                    
+        
+    </section>
+</body>
+</html>
